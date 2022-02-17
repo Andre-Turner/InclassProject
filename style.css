@@ -3,12 +3,12 @@
     padding: 20px;
     border: 1px solid green;
     background-color: orange;
-
-    
+       
 }
 
 .heading:hover{
     background-color: blue;
+    color: white;
 }
 
 body{
@@ -62,28 +62,37 @@ body{
 
 .column1:hover {
     background-color: green;
+    cursor: help;
 }
 
 .column2:hover {
     background-color: green;
+    cursor: help;
 }
 
 .column3:hover {
     background-color: green;
+    cursor: help;
 }
 
-.linkedinbutton {
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    border: dashed 2px yellow;
-    font-size: 20px;
-    background-color: green;
-    border-radius: 10px;
+a {
+    text-align:center;
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    text-decoration:none;
+    background: darkslateblue;
     color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: 5px dashed goldenrod;
 }
 
-.linkedinbutton:hover {
-    background-color: red;
+a:hover {
+    background: black;
+    border-radius: 0px;
+    color: white;
+    font-weight: bold;
 }
 
 /*Couldn't get link button to align to center*/
